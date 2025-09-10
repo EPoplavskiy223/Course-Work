@@ -5,7 +5,7 @@ from src.utils import apilayer_current, home_page_log, stock_prices, times_of_da
 from utils import date_analiz, reading_excel_file
 
 file = r"C:\PythonProgramm\PROJECT\CourseWork\date\operations.xlsx"
-
+#
 
 def times_of_day(date_user: datetime) -> str:
     """Определения время суток"""
