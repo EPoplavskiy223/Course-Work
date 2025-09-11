@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from typing import Any, Dict, List
 
-from utils import cashback_log, investment_log, phone_number_log, search_individuals_log, simple_search_1_log
+from src.utils import cashback_log, investment_log, phone_number_log, search_individuals_log, simple_search_1_log
 
 
 def increased_cashback_categories(data: list[dict], date_user: str) -> str:
